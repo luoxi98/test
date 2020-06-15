@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+            padding: 10px;
+            position: relative;
+        }
+        .size{
+            width: 100px;
+            height: 100px;
+        }
+        .left{
+            background-color: red;
+
+        }
+        .right{
+            background-color: cyan;
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            /* margin-left: -50px;
+             margin-top:-50px */
+            transform: translate(-50%,-50%);
+            /* 
+            平移
+            -50%沿着 x轴 方向 向左移动 元素宽度的一半 
+            -50%沿着 y轴 方向 向上移动 元素高度的一半*/
+        }
+        .center-x{
+            /* 定宽居中 给元素固定宽度，设置  margin: 0 auto;
+            利用margin自适应的方式 (拓展BFC)
+            */
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- 如何让一个元素上下左右都居中
+    4种方式 -->
+
+     <div class="box">
+
+         <div class="left size"></div>
+         <div class="right size"></div>
+     </div>
+
+
+</body>
+</html>

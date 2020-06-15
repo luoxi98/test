@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/hot.css">
+    <link rel="stylesheet" href="../css/mine.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <style>
+        body,
+        html{
+            width:100%;
+            height:100%;
+        }
+    footer{
+        border-top: 1px solid #999;
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        /* background-color: pink; */
+        bottom: 0;
+        left: 0;
+   
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    .fixed{
+        background-color: #fff;
+    }
+    .fixed li a{
+        font-size: 30px;
+        line-height: 50px;
+        color: #999;
+    }   
+    iframe{
+        width:100%;
+        height:100%;
+    }
+    </style>
+</head>
+<body>
+    <iframe src="./home.html" frameborder="0" name="content"></iframe>
+    <footer>
+        <ul class="fixed">
+            <li><a href="./home.html" class="iconfont icon-home" target="content"></a></li>
+            <li><a href="./hot.html" class="iconfont icon-book" target="content"></a></li>
+            <li><a href="./mine.html" class=" iconfont icon-mine" target="content"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

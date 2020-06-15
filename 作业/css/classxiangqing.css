@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    position:fixed;
+    height: 40px;
+    background-color: #fff;
+    /* text-align:center; */
+    font-size:25px;
+    padding: 0 20px;
+    line-height:40px;
+}
+.header .link{
+    position: absolute;
+    top:0;
+    right:10px;
+    height:40px;
+    border-radius:20px;
+    display:flex;
+    border:1px solid #ddd;
+    color:#999;
+}
+.header .link span{
+    padding:0 8px;
+    font-size:30px;
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.title{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.jiantou{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+.main{
+    margin-top: 40px;
+    background-color: pink;
+    width: 90%;
+
+
+}
+.lunbo{
+    background-color: rgba(204, 102, 255, 1);
+    width: 100%;
+    height: 215px;
+    padding-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+.lunbo h2{
+    color: #fff;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.lunbo span{
+    margin-left: 150px;
+    color: rgba(255, 255, 255, 0.658823529411765);
+}
+.lunbo .yuan1{
+    position: absolute;
+    right: -30px;
+    top: -20px;
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.lunbo .icon-mine{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.yuan2{
+    position: absolute;
+    bottom: -30px;
+    right: 40px;
+}
+.lunbo .icon-Starlarge{
+    color:#FF9A66;
+    font-size: 30px;
+    position: absolute;
+    right: 55px;
+    bottom: -12px;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.pingfen{
+    color: #FFCC00;
+}
+.money{
+    float: right;
+    color: #FFCC00;
+}
+.people{
+    color: #999;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.neirong{
+    width: 90%;
+    margin: 0 auto;
+}
+.jieshao{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+   
+    justify-content: space-around;
+}
+.neirong{
+    width: 90%;
+
+}
+.jieshao li{
+    list-style: none;
+    font-size: 20px;
+}
+.jieshao li:nth-child(1){
+   font-weight: 700;
+}
+.jieshao li:nth-child(2){
+    color: #999;
+}
+.jieshao li:nth-child(3){
+    color: #999;
+}
+.aim{
+    width: 90%;
+    margin: 0 auto;
+    /* height: 500px; */
+    /* background-color: pink; */
+    /* text-align: center; */
+    padding-top: 20px;
+}
+.aim-title{
+    text-align: center;
+    color: #2F78FF;
+    font-size: 20px;
+}
+.aim p{
+    width: 80%;
+   margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.pic1{
+    width: 80%;
+}
+.aim img{
+    display: block;
+    margin: 0 auto;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#fff;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: flex;
+}
+.footer>div{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 700;
+    text-align:center;
+}
+.footer-money{
+    align-self: center;
+    color: red;
+}
+
+.buy{
+    color: #fff;
+    height: 100%;
+    line-height: 3.5;
+    align-self: center;
+    background-color: blue;
+
+}

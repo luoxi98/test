@@ -1,0 +1,78 @@
+nav{
+    /* height: 100px; */
+  
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.title{
+    width: 50%;
+    margin: 0 auto;
+}
+a{
+    color: black;
+}
+h2:first-child{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+h2:last-child a{
+    color: #999 !important;
+}
+.lession-list{
+    margin-top: 35px;
+    display: flex;
+  
+   
+}
+.lession-list .card{
+    position: relative;
+    background-color: #cc66ff;
+    width: 45%;
+    color: #fff;
+    padding-left: 10px;
+    height: 150px;
+   
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.lession-list .card>span{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius:50% ;
+    font-size: 40px;
+    color: #fff;
+    padding-left:10px ;
+    line-height: 100px;
+}
+.right{
+    width: 100%;
+}
+.lession-list span{
+    height: 80px;
+    width: 80px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius:50% ;
+    font-size: 40px;
+    color: #fff;
+    padding-left:10px ;
+    line-height: 100px;
+}
+.iconfont{
+    font-family: "iconfont" !important;
+}
+
+
+.icon div{
+    display: inline-block;
+    color: orange;
+}
+.icon .people{
+    color: #999;
+    float: right;
+    font-size: 12px;
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding:0;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+.header{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+.user{
+    display: flex;
+    justify-content: flex-start;
+    /* height: 100px; */
+}
+.name{
+    
+    display: flex;
+    flex-direction: column;
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.user h2{
+    display: inline;
+}
+.user span{
+   
+    color: #999;
+}
+.banner ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.banner span{
+    color: #999;
+}
+.icon>h2{
+    font-size: 28px;
+}
+.myClass{
+    margin-top: 40px;
+}
+.myClass-item{
+    width: 100%;
+    height: 100px;
+    line-height:50px ;
+    /* background-color: blue; */
+    margin-top: 20px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+}
+.myClass-item ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.myClass-item li{
+    font-size: 20px;
+}
+.myClass-item span{
+    font-size: 30px;
+}
+.aboutOur{
+    margin-top: 20px;
+}
+.aboutOur li{
+    padding-top: 40px;
+    
+}
+.aboutOur li img{
+  margin-right: 10px;
+    
+}
+.aboutOur li span:first-child{
+    margin-right: 10px;
+    color: red;
+   
+}
+.aboutOur li span:last-child{
+    color: #999;
+    font-size: 12px;
+    float: right;
+}
+/* footer{
+    border-top: 1px solid #999;
+    height: 50px;
+    width: 100%;
+    position: fixed; */
+    /* background-color: pink; */
+    /* bottom: 0;
+    left: 0;
+   
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+.fixed li a{
+    font-size: 30px;
+    line-height: 50px;
+    color: #999;
+} */
+

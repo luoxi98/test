@@ -1,0 +1,26 @@
+main{
+    width: 90%;
+    /* background-color: pink; */
+    /* height: 400px; */
+    margin: 20px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+h2{
+    color: #2F78FF;
+}
+main img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+p{
+    line-height: 30px;
+}
+.our p{
+    font-size: 12px;
+}
+.our{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #999;
+}

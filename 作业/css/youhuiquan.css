@@ -1,0 +1,97 @@
+main{
+    height: 100px;
+    width: 92%;
+    margin:20px  auto;
+
+    background-color: pink;
+}
+.box{
+    height: 96px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px #F3F7FF;
+    margin-bottom: 20px;
+    display: flex;
+}
+.box-left{
+    height: 100%;
+    width: 96px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #6680FF;
+}
+.yuan{
+    position: absolute;
+    left: -15px;
+    transform: rotate(90deg);
+}
+.money{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+}
+.money span:last-child{
+    font-family:'Comic Sans MS Negreta', 'Comic Sans MS Normal', 'Comic Sans MS';
+    font-weight:700;
+    font-size: 40px;
+}
+
+.box-right{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.box-img{
+    background-image: url(../img/u3018.png);
+}
+.box-txt p{
+    color: #999;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+.box-txt p:first-child{
+    font-size: 18px;
+    font-weight: 700;
+}
+.use{
+    align-self: center;
+    position: absolute;
+    right:0px;
+    /* top: 6px; */
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    background-color: rgba(239, 179, 54, 1);
+}
+ .box .last{
+     background-color: #CCCCCC;
+   
+}
+.right1{
+    overflow: hidden;
+}
+.box-txt{
+    position: absolute;
+}
+.box .guoqi{
+
+    background-image: url(../img/u3861.png);
+    width: 108px;
+    height: 50px;
+    transform: rotate(45deg);
+    position: absolute;
+    right:-23px;
+    top: 6px;
+}
+.guoqi p{
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    left: 30px;
+}

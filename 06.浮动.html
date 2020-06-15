@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wraper{
+        width: 300px;
+        height: 350px;
+        background-color: darkgoldenrod;
+    }
+    .size{
+        width: 100px;
+        height: 100px;
+        float: left;
+
+    }
+    .one{
+        background-color: cyan;
+    }
+    .two{
+        background-color: darkorchid;
+    }
+    .three{
+        background-color: blue;
+    }
+    
+</style>
+<body>
+    <!-- 
+        浮动：
+        元素display值变为inline-block
+        移动范围为 父容器
+        浮动后脱离文档流
+        浮动后占据浮动元素位置
+
+
+        清除浮动后：可以让元素不脱离文档流；
+        方式一：在最后一个浮动元素后加空标签 clear:both
+        方式二：父元素 overflow：hidden
+        方式三(推荐)：创建BFC盒子
+        
+     -->
+    <div class="wraper">
+         <div class="one size">ONE</div>
+         <div class="two size">TWO</div>
+         <div class="three size">THERR</div>
+    </div>
+</body>
+</html>
